@@ -302,6 +302,12 @@ a {
 .text-white:hover{
   color:rgba(248, 248, 248, 0.411);
 }
+
+@media (min-width: 992px) {
+  .titulo-personal{
+    font-size: 50px;
+  }
+}
 /*
 *{
   border: 1px black solid;

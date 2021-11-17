@@ -3,7 +3,8 @@ import { TYPES } from "../Actions/shoppingActions";
 export const shoppingInitialState = {
     products:[
         {
-            idProducto: "001",
+            idProducto: "asdacasd",
+            subId: "001",
             nombre: "Dr. Strange",
             description: "Mister of mystic arts",
             foto: "001",

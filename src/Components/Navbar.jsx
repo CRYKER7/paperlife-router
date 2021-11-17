@@ -15,20 +15,22 @@ const NavBar = () => {
             
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
-                        <li className="nav-item px-lg-4">
+                        <li className="nav-item px-lg-4 mt-sm-5 mt-md-0">
                             <NavLink className="active text-uppercase text-white" to="/">Inicio</NavLink>
                         </li>
-                        <li className="nav-item px-lg-4">
+                        <li className="nav-item px-lg-4 mt-sm-5 mt-md-0">
                             <NavLink className="active text-uppercase text-white" to="/productos">Catálago</NavLink>
                         </li>
-                        <li className="nav-item px-lg-4">
+                        <li className="nav-item px-lg-4 mt-sm-5 mt-md-0">
                             {/*<NavLink className="active text-uppercase text-white" to="/contacto">Contacto</NavLink>*/}
                         </li>
                     </ul>
-                    <div className="nav-item px-lg-4 d-flex">
+                    <div className="nav-item px-lg-4 d-flex mt-sm-5 mt-md-0">
                             {/* Con operadores ternarios dependiendo del estado, agregar login o log out, datos de user */}
                             <NavLink className="active text-uppercase text-white" to="/contacto"><img className="logo" src="/img/usuario.png" alt="user icon"/>&nbsp;Login</NavLink>
-                        </div>
+                            <br/><br/>
+                    </div>
+                    
                 </div>
             </div>
         </nav>

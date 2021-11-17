@@ -19,3 +19,4 @@ para admin, cargar productos, ver las compras, cambiar estatus del producto
 
 usuario ver sus compras
 
+

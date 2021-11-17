@@ -30,7 +30,7 @@ const ShoppingCart = () => {
     return (
         <>
         <NavBar/>
-        <div className="container mt-5 text-center">
+        <div className="container-fluid mt-5 text-center">
            <h3>Productos</h3> 
            <div className="row justify-content-center">
                {products.map((product) => (
