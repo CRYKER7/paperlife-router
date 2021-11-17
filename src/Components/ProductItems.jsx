@@ -11,14 +11,14 @@ const Card = ({ data, addToCart }) => {
             <img className="card-img-top" src={path} alt={nombre} style={{ width: "80%", height: "70%"}} />
             <div className="card-body">
                 <h3 className="card-title"># {idProducto} {nombre}</h3>
-                <p className="card-text">
+                <div className="card-text">
                     <h4>$ {precio}.00 MXN</h4> 
-                    <Link className="card-link text-black" to={`/producto/${idProducto}`}>
+                    <Link className="card-link text-black" to={`/producto/${idProducto}` }>
                         Ver Más ...
                     </Link>
                     <br/>
                     <button onClick={() => addToCart(idProducto)} className="btn btn-light">Agregar</button>
-                </p>
+                </div>
             </div>
         </div>
     )

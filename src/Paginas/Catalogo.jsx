@@ -35,13 +35,13 @@ const ShoppingCart = () => {
            <div className="row justify-content-center">
                {products.map((product) => (
                 <ProductItem key={product.id} data={product} addToCart={addToCart} />
-               ))}
+                ))}
            </div>
            <h3>Carrito</h3>
            <div className="row justify-content-center">
                <button onClick={clearCart}  className="btn btn-light col-2">Limpiar Carrito</button><hr/>
                {cart.map((item, index) => (
-                   <CartItem key={index} data={item} delFromCart={delFromCart} />
+                <CartItem key={index} data={item} delFromCart={delFromCart} />
                 ))}
            </div>
            <br/>

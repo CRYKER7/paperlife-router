@@ -93,9 +93,7 @@ p {
   color: rgb(247, 247, 247);
 }
 
-.footer > p,
 a {
-  color: rgb(247, 247, 247);
   text-decoration: none;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -299,4 +297,8 @@ a {
   box-shadow: 0 0 1rem #00000002 inset;
   padding: 1rem;
   margin: 1rem;
+}
+
+.text-white:hover{
+  color:rgba(248, 248, 248, 0.411);
 }

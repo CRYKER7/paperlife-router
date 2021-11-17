@@ -43,7 +43,7 @@ const Inicio = () => {
                 <div className="col-6 container">
                     <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/camaleonSlider.png" alt="vision"/>
                 </div>
-                <div className="col-6 intro-text2 right-0 text-center bg-faded p-5 rounded">
+                <div className="col-6 intro-text right-0 text-center bg-faded p-5 rounded">
                     <h2 className="section-heading mb-1">
                         <span className="section-heading-lower">valores</span>
                     </h2>

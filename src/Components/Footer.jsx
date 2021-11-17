@@ -7,7 +7,7 @@ const Footer = () => {
                 <div className="row d-flex justify-content-center"> 
                     <div className="col-3">
                         <p className="mb-0">Correo Electronico<br/> 
-                            <img src="img/email.png" alt="email icon"/>
+                            <img src="/img/email.png" alt="email icon"/>
                             contactto@paperlife.com
                         </p>    
                     </div>
@@ -18,7 +18,7 @@ const Footer = () => {
                         <p>
                             Facebook
                             <a className="nav-link text-white" href="https://www.facebook.com/paperlifecraft" target="_blank" rel="noreferrer">
-                                <img src="img/facebook.png" alt="" /><br/>
+                                <img src="/img/facebook.png" alt="" /><br/>
                                  @paperlifecraft  
                             </a>
                         </p>
