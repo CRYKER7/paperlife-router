@@ -13,7 +13,7 @@ const Card = ({ data, addToCart }) => {
                 <h3 className="card-title"># {idProducto} {nombre}</h3>
                 <p className="card-text">
                     <h4>$ {precio}.00 MXN</h4> 
-                    <Link className="card-link text-black" to={`/character/${idProducto}`}>
+                    <Link className="card-link text-black" to={`/producto/${idProducto}`}>
                         Ver Más ...
                     </Link>
                     <br/>
