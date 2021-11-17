@@ -9,7 +9,7 @@ const NavBar = () => {
             <div className="container-fluid">
                 <NavLink className="nav-brand text-uppercase text-white" to="/">
                     <img src="logo192.png" alt="" className="logo" />PaperLife</NavLink>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbaNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button> 
             
