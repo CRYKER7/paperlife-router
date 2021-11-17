@@ -22,12 +22,12 @@ const NavBar = () => {
                             <NavLink className="active text-uppercase text-white" to="/productos">Catálago</NavLink>
                         </li>
                         <li className="nav-item px-lg-4">
-                            <NavLink className="active text-uppercase text-white" to="/contacto">Contacto</NavLink>
+                            {/*<NavLink className="active text-uppercase text-white" to="/contacto">Contacto</NavLink>*/}
                         </li>
                     </ul>
                     <div className="nav-item px-lg-4 d-flex">
                             {/* Con operadores ternarios dependiendo del estado, agregar login o log out, datos de user */}
-                            <NavLink className="active text-uppercase text-white" to="/contacto"><img className="logo" src="img/usuario.png" alt="user icon"/>&nbsp;Login</NavLink>
+                            <NavLink className="active text-uppercase text-white" to="/contacto"><img className="logo" src="/img/usuario.png" alt="user icon"/>&nbsp;Login</NavLink>
                         </div>
                 </div>
             </div>

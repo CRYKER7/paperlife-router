@@ -3,14 +3,15 @@ import { Link } from 'react-router-dom';
 
 const Card = ({ data, addToCart }) => {
     let {idProducto, nombre, precio} = data;
-    const path = `/img/products/${idProducto}.jpeg`;
+    const path = `/img/products/${idProducto}.jpg`;
     
     return (
         <div className="card m-3 col-xs-12 col-md-3 text-center align-items-center" >
             <br/>
+            <h3 className="card-title"># {idProducto} {nombre}</h3>
             <img className="card-img-top" src={path} alt={nombre} style={{ width: "80%", height: "70%"}} />
             <div className="card-body">
-                <h3 className="card-title"># {idProducto} {nombre}</h3>
+                
                 <div className="card-text">
                     <h4>$ {precio}.00 MXN</h4> 
                     <Link className="card-link text-black" to={`/producto/${idProducto}` }>

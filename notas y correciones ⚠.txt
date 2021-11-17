@@ -1,0 +1,21 @@
+indicar cuando sea gregan
+ver mas de carrito no funcniona
+no funciona el aliminar uno o todos de un producto solo
+al clickear en todo el producto en cel es molesto solo dar en ver mas 
+boton para regresar de descripcion
+
+las imagenes de detalles de producto en celular esta alargada 
+carrito en pcelular comprimirodo y pequeño
+
+
+Agregar categorizacion de productos en lugar de formulario de contacto
+hacer estetica de archivo de producto como cubefold
+estetica de detalles como cubeecraft
+catalogo y categiorias como cube fold
+
+agregar pertaña de registro de usuario, login
+
+para admin, cargar productos, ver las compras, cambiar estatus del producto
+
+usuario ver sus compras
+
