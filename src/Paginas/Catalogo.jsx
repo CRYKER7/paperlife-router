@@ -2,7 +2,7 @@ import React,{ useReducer } from 'react'
 import { TYPES } from '../Actions/shoppingActions';
 import { shoppingInitialState, shoppingReducer } from '../Reducers/shoppingReducer'
 import CartItem from '../Components/CartItems';
-import ProductItem from '../Components/Card';
+import ProductItem from '../Components/ProductItems';
 import NavBar from '../Components/Navbar';
 
 const ShoppingCart = () => {

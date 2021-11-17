@@ -296,5 +296,7 @@ a {
 
 .card {
   background: rgba(248, 248, 248, 0.411);
-  box-shadow: #000;
+  box-shadow: 0 0 1rem #00000002 inset;
+  padding: 1rem;
+  margin: 1rem;
 }

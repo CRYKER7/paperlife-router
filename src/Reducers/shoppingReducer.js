@@ -66,19 +66,20 @@ export const shoppingInitialState = {
     cart:[]
 };
 
+
 export function shoppingReducer(state, action) {    
     switch (action.type){
         case TYPES.ADD_TO_CART:{
-            let newItem = state.products.find(product => product.id === action.payload);
-            console.log(newItem);
+            let newItem = state.products.find(product => product.idProducto === action.payload);
+            //console.log(newItem);
 
-            let itemIncart = state.cart.find(item => item.id === newItem.id);
+            let itemIncart = state.cart.find(item => item.idProducto === newItem.idProducto);
             
             return itemIncart 
             ? {
                 ...state, 
                 cart: state.cart.map(item=> 
-                    item.id === newItem.id 
+                    item.idProducto === newItem.idProducto 
                     ? {...item, quantity: item.quantity +1}
                     : item 
                     ),
@@ -89,26 +90,26 @@ export function shoppingReducer(state, action) {
             };
         }
         case TYPES.REMOVE_ONE_FROM_CART:{
-            let itemToDelete = state.cart.find(item => item.id === action.payload);
+            let itemToDelete = state.cart.find(item => item.idProducto === action.payload);
             
             return itemToDelete.quantity > 1 
             ?{
                 ...state, 
                 cart: state.cart.map(item => 
-                    item.id === action.payload 
+                    item.idProducto === action.payload 
                     ? {...item, quantity: item.quantity - 1 }
                     : item 
                 ),
             }
             :{ 
                 ...state,
-                cart: state.cart.filter(item => item.id !== action.payload),
+                cart: state.cart.filter(item => item.idProducto !== action.payload),
             };
         }
         case TYPES.REMOVE_ALL_FROM_CART:
             return {
                 ...state,
-                cart: state.cart.filter(item => item.id !== action.payload),
+                cart: state.cart.filter(item => item.idProducto !== action.payload),
             }
         
         case TYPES.CLEAR_CART:

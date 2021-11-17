@@ -6,8 +6,10 @@ const CartItems = ({data, delFromCart}) => {
     const path = `/img/products/${idProducto}.jpeg`;
 
     return ( 
-        <div className="m-3 col-10 card" >
-            <img className="col-2" src={path} alt={nombre} style={{ width: "80%", height: "70%"}} />
+        <div className="m-3 col-10 card row" >
+            <div className="col-2">
+                <img  src={path} alt={nombre} style={{ width: "80%", height: "80%"}} />
+            </div>
             <div className="col-8">
                 <h3 className="row"># {idProducto} {nombre}</h3>
                 <h5 className="row">$ {precio}.00 x {quantity} = $ {precio * quantity} </h5>
