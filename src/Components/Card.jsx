@@ -1,9 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Card = ({ nombre, idProducto, precio }) => {
+const Card = ({ data, addToCart }) => {
+    let {idProducto, nombre, precio} = data;
     const path = `/img/products/${idProducto}.jpeg`;
-
+    
     return (
         <div className="card m-3 col-xs-12 col-md-3 text-center align-items-center" >
             <br/>
@@ -16,7 +17,7 @@ const Card = ({ nombre, idProducto, precio }) => {
                         Ver Más ...
                     </Link>
                     <br/>
-                    <button className="btn btn-light" >Agregar</button>
+                    <button onClick={() => addToCart(idProducto)} className="btn btn-light">Agregar</button>
                 </p>
             </div>
         </div>
