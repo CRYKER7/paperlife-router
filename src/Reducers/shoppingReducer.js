@@ -69,19 +69,22 @@ export const shoppingInitialState = {
             categoria: "Anime",
         },
     ],
-    cart:[]
+    cart: [] 
 };
+
+
 
 
 export function shoppingReducer(state, action) {    
     switch (action.type){
         case TYPES.ADD_TO_CART:{
             let newItem = state.products.find(product => product.idProducto === action.payload);
+            
             //console.log(newItem);
 
             let itemIncart = state.cart.find(item => item.idProducto === newItem.idProducto);
-            
-            return itemIncart 
+
+            return itemIncart
             ? {
                 ...state, 
                 cart: state.cart.map(item=> 
@@ -94,6 +97,7 @@ export function shoppingReducer(state, action) {
                 ...state, 
                 cart:[...state.cart, {...newItem, quantity: 1}], 
             };
+            
         }
         case TYPES.REMOVE_ONE_FROM_CART:{
             let itemToDelete = state.cart.find(item => item.idProducto === action.payload);

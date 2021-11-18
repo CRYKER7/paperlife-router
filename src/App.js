@@ -7,7 +7,6 @@ const init = () => {
   return JSON.parse(localStorage.getItem('log')) || {log: false}
 };
 
-
 function App() {
   const [log, dispatch] = useReducer( AuthReducer , {}, init);
 
