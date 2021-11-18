@@ -10,48 +10,19 @@ const Inicio = () => {
             <Header/>
 
             <h1 className="site-heading text-center text-white d-none d-md-block mt-5"> 
-                <span className="site-heading-upper text-primary mb-3">Quienes Somos</span>
+                <span className="site-heading-upper text-primary mb-3">Qué es Paperlife?</span>
             </h1>
 
-            <section className="page-section clearfix row">
-                <div className="col-6 container">
-                    <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/ardillaSlider.png" alt="vision"/>
+            <section className="page-section row overflow-hidden ms-0 me-0">
+                <div className="col-12 col-lg-6 bg-faded right-0 text-center p-5 m-0">
+                    <p>En Paperlife, somos una tienda digital de arte de papercraft donde podrás encontrar múltiples modelos de diferentes franquicias y categorías, diseñados con la mejor calidad y facilidad de uso.</p>
+                    <p>Cada modelo esta diseñado para ser impreso en una hoja de 8.5 X 11 pulgadas (tamaño carta). Solo debes imprimir, cortar y  armar tu modelo. La diversión esta garantizada.</p>
+                    <p>No importa si quieres divertirte un rato, hacer una actividad con tu familia y amigos, o crear ese regalo para esa persona tan especial para ti, Paperlife es tu mejor opción para conseguir los mejores modelos de papercraft.</p>
                 </div>
-                <div className="col-6 intro-text2 right-0 text-center bg-faded p-5 rounded">
-                    <h2 className="section-heading mb-1">
-                        <span className="section-heading-lower">misión</span>
-                    </h2>
-                    <p className="mb-3 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe earum animi placeat fugit labore fugiat blanditiis, dicta vero sapiente praesentium at illum quia modi porro quod doloribus nisi cumque dolor.
-                    </p>
+                <div className="div-img col-12 col-lg-6 m-0 p-0">
+                    <img className="imagen" src="./img/unicornioSlider.png" alt="" />
                 </div>
             </section>
-
-            <section className="page-section clearfix row">
-                <div className="col-6 intro-text2 right-0 text-center bg-faded p-5 rounded">
-                    <h2 className="section-heading mb-1">
-                        <span className="section-heading-lower">visión</span>
-                    </h2>
-                    <p className="mb-3 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe earum animi placeat fugit labore fugiat blanditiis, dicta vero sapiente praesentium at illum quia modi porro quod doloribus nisi cumque dolor.
-                    </p>
-                </div>
-                <div className="col-6 container">
-                    <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/aguilaSlider.png" alt="vision"/>
-                </div>
-            </section>
-
-            <section className="page-section clearfix row">
-                <div className="col-6 container">
-                    <img className="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/camaleonSlider.png" alt="vision"/>
-                </div>
-                <div className="col-6 intro-text right-0 text-center bg-faded p-5 rounded">
-                    <h2 className="section-heading mb-1">
-                        <span className="section-heading-lower">valores</span>
-                    </h2>
-                    <p className="mb-3 "> Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe earum animi placeat fugit labore fugiat blanditiis, dicta vero sapiente praesentium at illum quia modi porro quod doloribus nisi cumque dolor.
-                    </p>
-                </div>
-            </section>
-
 
             <Footer/>
 

@@ -15,24 +15,24 @@ const Slider = () => {
                 <div className="carousel-item active">
                     <a href="/"><img src="img/aguilaSlider.png" className="d-block w-100" alt="..."/></a>
                     <div className="carousel-caption">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>ArdillaCraft</h5>
+                        <p>Ver más detalles.</p>
                     </div>
                 </div>
                 
                 <div className="carousel-item">
-                    <a href="/"><img src="img/aguilaSlider.png" className="d-block w-100" alt="..."/></a>
+                    <a href="/"><img src="img/ardillaSlider.png" className="d-block w-100" alt="..."/></a>
                     <div className="carousel-caption">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>ArdillaCraft</h5>
+                        <p>Ver más detalles.</p>
                     </div>
                 </div>
 
                 <div className="carousel-item">
-                    <a href="/"><img src="img/aguilaSlider.png" className="d-block w-100" alt="..."/></a>
+                    <a href="/"><img src="img/camaleonSlider.png" className="d-block w-100" alt="..."/></a>
                     <div className="carousel-caption">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5>CamaleónCraft</h5>
+                        <p>Ver más detalles.</p>
                     </div>
                 </div>
 
@@ -41,10 +41,10 @@ const Slider = () => {
             <button className="carousel-control-prev" type="button" 
             data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span className="sr-only">Previous</span>
+                <span className="sr-only"></span>
             </button>
             <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span className="sr-only">Next</span>
+                <span className="sr-only"></span>
                 <span className="carousel-control-next-icon" aria-hidden="true"></span>
             </button>
 

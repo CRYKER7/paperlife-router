@@ -335,6 +335,20 @@ a {
   margin: 1rem;
   box-shadow: 0 0 0.2rem;
 }
+.div-img {
+  position: relative;
+  overflow: hidden;
+}
+.imagen {
+  position: absolute;
+  right: 0;
+  top: -150px;
+  min-height: calc(100% + 150px);
+  width: auto;
+}
+.carousel-caption h5, .carousel-caption p {
+  background: rgba(0, 0, 0, 0.5);
+}
 
 /*
 * {
