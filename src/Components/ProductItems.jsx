@@ -8,7 +8,7 @@ const Card = ({ data, addToCart }) => {
     return (
         <div className="col-xs-10 col-md-4" >
             <div className="card align-items-center text-center">
-                <div className="col-10 d-flex text-center row mb-md-4 mb-xs-1">
+                <div className="col-12 d-flex text-center row mb-md-4 mb-xs-1" >
                     <Link className="card-link text-black" to={`/producto/${idProducto}` }>
                         <h3 className="card-title text-uppercase tutulo-personal">#{subId} {nombre}</h3>
                         <img className="card-img-top" src={path} alt={nombre} style={{ width: "80%", height: "80%"}} />

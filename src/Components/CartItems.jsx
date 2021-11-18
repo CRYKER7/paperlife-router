@@ -20,11 +20,7 @@ const CartItems = ({data, delFromCart}) => {
                     </Link>
                     
                     <div className="col-xs-10 text-center align-items-center row">
-                        <Link className="col-md-3 norender btn text-black" to={`/producto/${idProducto}`} >
-                            Ver Más ...
-                        </Link>
-                        <button className="col-md-3 btn btn-light" onClick={() => delFromCart(idProducto)} >Eliminar Uno</button>&nbsp;&nbsp;
-                        <button className="col-md-3 btn btn-light" onClick={() => delFromCart(idProducto, true)} >Eliminar Todos</button>
+                        <button className="col-md-3 btn btn-light" onClick={() => delFromCart(idProducto)} >Eliminar</button>&nbsp;&nbsp;
                     </div>
                     
                 </div>

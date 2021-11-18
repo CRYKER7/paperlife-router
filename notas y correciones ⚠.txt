@@ -1,5 +1,4 @@
 indicar cuando sea gregan al carrito
-no funciona el eliminar uno o todos de un producto solo
 al clickear en todo el producto en cel es molesto solo dar en ver mas 
 boton para regresar de descripcion
 

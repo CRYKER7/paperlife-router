@@ -9,7 +9,15 @@ export const AuthReducer = ( state, action ) => {
         case authTypes.logout:
             return { log: false };
 
+        case "add":
+           return[...state, action.payload]
+
+        case "delete":
+           return state.filter ((actual) => actual.id !== action.payload);
+           
         default: 
-            return state;
-    }
+           return state;
+    };
+
+
 };

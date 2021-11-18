@@ -15,12 +15,8 @@ const ShoppingCart = () => {
         dispatch({type:TYPES.ADD_TO_CART,payload: id});
     };
 
-    const delFromCart = (id, all=false) => {
-        if(all) {
-            dispatch({types:TYPES.REMOVE_ALL_FROM_CART, payload:id})
-        } else {
-            dispatch({types:TYPES.REMOVE_ONE_FROM_CART, payload:id})
-        }
+    const delFromCart = (id) => {
+        dispatch({types:TYPES.REMOVE_FROM_CART, payload:id})
     };
     
     const clearCart = () => {
