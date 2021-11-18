@@ -14,7 +14,8 @@ export const shoppingInitialState = {
             categoria: "Marvel",
         },
         {
-            idProducto: "002",
+            idProducto: "65464",
+            subId: "002",
             nombre: "MarkSman",
             description: "Suicide Squad member",
             foto: "002",
@@ -25,6 +26,7 @@ export const shoppingInitialState = {
         },
         {
             idProducto: "003",
+            subId: "003",
             nombre: "Katana",
             description: "Suicide Squad member",
             foto: "003",
@@ -35,6 +37,7 @@ export const shoppingInitialState = {
         },
         {
             idProducto: "004",
+            subId: "004",
             nombre: "Metal Gear Rex",
             description: "Nuclear Armed Bipedal Tank PopFold Metal Gear Series",
             foto: "004",
@@ -45,6 +48,7 @@ export const shoppingInitialState = {
         },
         {
             idProducto: "005",
+            subId: "005",
             nombre: "Vault Boy",
             description: "Vault-Tec Mascot",
             foto: "005",
@@ -55,6 +59,7 @@ export const shoppingInitialState = {
         },
         {
             idProducto: "006",
+            subId: "006",
             nombre: "Saitama",
             description: "The Caped Bald",
             foto: "006",

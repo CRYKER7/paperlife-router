@@ -2,7 +2,7 @@ import React from 'react'
 
 const Slider = () => {
     return (
-    <div className="container">
+    <div className="container slider-personal">
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">
             <ol className="carousel-indicators" >
                 <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></li>

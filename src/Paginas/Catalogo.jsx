@@ -19,7 +19,7 @@ const ShoppingCart = () => {
         if(all) {
             dispatch({types:TYPES.REMOVE_ALL_FROM_CART, payload:id})
         } else {
-            dispatch({types:TYPES.REMOVE_ALL_FROM_CART, payload:id})
+            dispatch({types:TYPES.REMOVE_ONE_FROM_CART, payload:id})
         }
     };
     
