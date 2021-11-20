@@ -14,7 +14,8 @@ export const AuthReducer = ( state, action ) => {
 
         case "delete":
            return state.filter ((actual) => actual.id !== action.payload);
-           
+        case "productos":
+            return 
         default: 
            return state;
     };

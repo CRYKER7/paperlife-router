@@ -1,20 +1,22 @@
-indicar cuando sea gregan al carrito
-al clickear en todo el producto en cel es molesto solo dar en ver mas 
-boton para regresar de descripcion
+Indicar cuando sea gregan al carrito
+Al clickear en todo el producto en cel es molesto solo dar en ver mas 
+Boton para regresar de descripcion
 
-las imagenes de detalles de producto en celular esta alargada 
+Las imagenes de detalles de producto en celular esta alargada 
 carrito en pcelular comprimirodo y pequeño
 
 
 Agregar categorizacion de productos en lugar de formulario de contacto
-hacer estetica de archivo de producto como cubefold
-estetica de detalles como cubeecraft
-catalogo y categiorias como cube fold
+Hacer estetica de archivo de producto como cubefold
+Estetica de detalles como cubeecraft
+Catalogo y categiorias como cube fold
 
-agregar pertaña de registro de usuario, login
+Agregar pertaña de registro de usuario, login
 
-para admin, cargar productos, ver las compras, cambiar estatus del producto
+Para admin, cargar productos, ver las compras, cambiar estatus del producto
 
-usuario ver sus compras
+Usuario ver sus compras y comprar productos
 
 
+
+Transladar a tipo redux la paltilla y archivos

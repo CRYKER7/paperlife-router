@@ -1,25 +1,18 @@
-import React, { useReducer, useEffect } from 'react';
+import React, { useReducer, useEffect } from 'react'
 import { AuthReducer } from './Reducers/AuthReducers'
 import { AuthContext } from './Context/AuthContext'
-import AppRouter from './Routes/AppRouter';
-
-const init = () => {
-  return JSON.parse(localStorage.getItem('log')) || {log: false}
-};
+import AppRouter from './Routes/AppRouter'
+import { db } from './firebase/firebaseConfig'
+import { useSelector, useDispatch } from 'react-redux'; 
+import { stock } from './Funciones/slice';
 
 function App() {
-  const [log, dispatch] = useReducer( AuthReducer , {}, init);
-
-  //Definimos un useEffect para persistir el estado del log
-  useEffect(() => {
-    localStorage.setItem('log', JSON.stringify(log));
-  }, [log])
-
+    
   //Usamos <AuthContext.Provider> para poveer el contexto a toda la aplicación.
   return (
-    <AuthContext.Provider value={{log, dispatch}}>
+    //<AuthContext.Provider value={{dispatch}}>
       <AppRouter/>
-    </AuthContext.Provider>
+    //</AuthContext.Provider>
   )
 }
 
