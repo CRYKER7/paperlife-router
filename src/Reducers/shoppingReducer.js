@@ -1,16 +1,23 @@
 import { TYPES } from "../Actions/shoppingActions";
+import { db } from '../firebase/firebaseConfig'
+
+/*
+useEffect(() => {
+    db.collection('productos').onSnapshot(snapshot) => {
+        //dispatch.
+    }
+}, [])
+*/
 
 export const shoppingInitialState = {
+    //const dispatch = useDispatch();
     products:[
         {
-            idProducto: "asdacasd",
             subId: "001",
             nombre: "Dr. Strange",
             description: "Mister of mystic arts",
-            foto: "001",
             precio: "5",
-            estatus: "active",
-            archivo: "001",
+            estatus: true,
             categoria: "Marvel",
         },
         {

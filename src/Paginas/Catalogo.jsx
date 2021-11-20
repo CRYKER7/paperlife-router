@@ -42,6 +42,7 @@ const ShoppingCart = () => {
            </div>
            <br/>
            </div>
+            
         </>
     )
 }
